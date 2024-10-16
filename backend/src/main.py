@@ -12,6 +12,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Building some shit
 @app.get("/")
 async def greet():
     return {"hello": "world"}
